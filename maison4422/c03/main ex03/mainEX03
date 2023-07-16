@@ -1,0 +1,12 @@
+int main(void)
+{
+        char dest[20] = "Hello, ";
+    char src[] = "world!";
+    unsigned int nb = 5;
+
+    ft_strncat(dest, src, nb);
+
+    printf("%s\n", dest);
+
+    return 0;
+}
